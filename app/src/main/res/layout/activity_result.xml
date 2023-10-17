@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
+    android:background="#CDDC39"
     tools:context=".ResultActivity">
 
     <ImageView
@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/congratulations" />
+        app:srcCompat="@drawable/pngwing" />
 
     <TextView
         android:id="@+id/textView2"
@@ -72,10 +72,11 @@
 
     <Button
         android:id="@+id/buttonPlayAgain"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="100dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/btn_radius"
+        android:backgroundTint="#2196F3"
         android:text="Play Again"
         android:textAllCaps="false"
         android:textColor="@color/black"
@@ -87,10 +88,11 @@
 
     <Button
         android:id="@+id/btnExit"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="100dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/btn_radius"
+        android:backgroundTint="#2196F3"
         android:text="Exit"
         android:textAllCaps="false"
         android:textColor="@color/black"

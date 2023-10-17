@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF5722"
+    android:background="#03A9F4"
     tools:context=".QuizActivity">
 
     <LinearLayout
@@ -163,7 +163,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:text="Finish"
-            android:textColor="@color/orange"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <Button
@@ -174,7 +174,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:text="Next"
-            android:textColor="@color/orange"
+            android:textColor="@color/black"
             android:textSize="18sp" />
     </LinearLayout>
 
